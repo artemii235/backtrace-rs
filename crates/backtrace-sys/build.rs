@@ -59,7 +59,6 @@ fn main() {
     if !target.contains("apple-ios")
         && !target.contains("solaris")
         && !target.contains("redox")
-        && !target.contains("android")
         && !target.contains("haiku")
         && !target.contains("vxworks")
     {
